@@ -2,5 +2,57 @@
     --blue: ##007bff;
     --indigo: #6610f2;
     --purple: #6f42c1;
-    
+    --orange: #A23F25;
+    --main-rgba: rgba(255,255,255,0.6);
 }
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.align-items-center {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.justify-content-center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+
+.d-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex !important;
+
+}
+
+.pl-2 {
+    padding-left: 2px;
+}
+
+.ml-5 {
+    margin-left: 5px;
+}
+
+.mr-1 {
+    margin-right: 1px;
+}
+
+.mr-2 {
+    margin-right: 2px;
+}
+
+.mr-4 {
+    margin-right: 4px;
+}
+

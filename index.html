@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/font/Raleway,Spectral/Raleway/static/Raleway-Regular.ttf">    
     <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.1-web/fontawesome-free-5.15.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/js/function.js">
 
 </head>
 <body>
+    <!-- START HEADER -->
     <div class="header">
         <div class="container">
             <div class="row">
@@ -29,7 +31,7 @@
                 </div>
                 <div class="col-md-6 justify-content-md-end d-flex">
                     <div class="social-media">
-                        <p class="mr-4 d-flex">
+                        <p class="header__line-height mr-4 d-flex">
                             <a href="#" class="d-flex align-items-center justify-content-center">
                                 <span><i class="fab fa-facebook"></i></span>
                             </a>
@@ -44,7 +46,7 @@
                             </a>
                         </p>
                     </div>
-                    <div class="reg">
+                    <div class="header__line-height reg">
                         <p>
                             <a href="">SIGN UP</a>
                             <a href="">LOG IN</a>
@@ -54,5 +56,68 @@
             </div>
         </div>
     </div>
+    <!-- END HEADER -->
+
+
+
+    <!-- START NAVBAR -->
+    <div class="nav-bar">
+        <div class="container">
+            <a href="index.html" class="nav-bar-logo">shoes
+                <span>store</span>
+            </a>
+            <div onclick="onClickFunction()" id="myDropDown" class="menu-bar-hambuger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="menu-bar-cart">
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+            <div class="menu-bar">
+                <ul class="menu-bar-list">
+                    <li class="menu-bar-item">
+                        <a href="" class="menu-bar-item-link">home</a>
+                    </li>
+                    <li class="menu-bar-item">
+                        <a href="" class="menu-bar-item-link">about</a>
+                    </li>
+                    <li class="menu-bar-item">
+                        <a href="" class="menu-bar-item-link">product</a>
+                    </li>
+                    <li class="menu-bar-item">
+                        <a href="" class="menu-bar-item-link">blog</a>
+                    </li>
+                    <li class="menu-bar-item">
+                        <a href="" class="menu-bar-item-link">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- END NAVBAR -->
+
+    <!-- START BACKGROUND -->
+    <div class="main-background">
+        
+    </div>
+    <!-- END SLIDER -->
+    
+    <script>
+    function onCLickFunction() {
+        document.getElementById("myDropDown").classList.toggle("show");
+    }
+
+    window.onclick = function(event) {
+        if (!event.target.matches('.menu-bar-hambuger')) {
+            var dropdowns = document.getElementsByClassName("menu-bar");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+    </script>
 </body>
 </html>

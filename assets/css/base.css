@@ -3,7 +3,15 @@
     --indigo: #6610f2;
     --purple: #6f42c1;
     --orange: #A23F25;
+    --black: #000000;
     --main-rgba: rgba(255,255,255,0.6);
+    --white-light: #f1cfcf;
+    --white-near: #ffffffcc;
+    --white-half: #ffffff80;
+}
+
+.show {
+    display: block;
 }
 
 .row {

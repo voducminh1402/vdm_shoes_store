@@ -4,43 +4,97 @@
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .justify-content-md-end {
         justify-content: flex-end;
+    }
+
+    .menu-bar-hambuger {
+        display: none;
+    }
+
+    .menu-bar-list a {
+        padding-left: 20px;
+    }
+
+}
+
+@media (min-width: 770px) and (max-width: 1023px) {
+    .header > .container {
+        padding: 0 30px;
+    }
+
+    .nav-bar > .container {
+        padding: 15px 15px;
+    }
+
+    .nav-bar > .container > a {
+        font-size: 23px;
     }
 }
 
 @media (max-width: 768px) {
     .container {
         max-width: 720px;
-        margin-left: 15px;
-        margin-right: 15px;
+    }
+
+    .row {
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .col-md-6 {
         width: 100%;
+        justify-content: space-between; 
+    }
+
+    .menu-bar {
+        order: 15;
+        width: 100%;
+        display: none;
+    }
+
+    .nav-bar > .container {
+        padding-left: 0;
+        padding-right: 0;
+        flex-wrap: wrap;    
+        max-width: 100%;
+    }
+
+    .nav-bar > .container > a {
+        padding-left: 15px;
+    }
+
+    .nav-bar > .container > .menu-bar-cart {
+        padding-right: 15px;
+    }
+
+    .menu-bar-list {
+        flex-direction: column;
+        background-color: var(--black);
+        justify-content: center;
+        margin-right: auto;
+        text-align: left;
+        width: 100%;
+        margin-top: 15px;
+        padding-left: 15px;
+        font-size: 14px;
+    }
+
+    .menu-bar-list a {
+        padding-left: 0;
+    }
+
+    .menu-bar-item {
+        padding: 15px 0;
+    }
+
+    .nav-bar > .container > a {
+        font-size: 20px;
     }
 }
 
-@media (min-width: 426px) and (max-width: 767px) {
-    .header {
-        height: 60px;
-    }
 
-    .container {
-        max-width: ;
-    }
-}
-
-@media (max-width: 767px) {
-    .header {
-        height: 60px;
-    }
-
-    .reg {
-        justify-content: flex-end;
-    }
-}
 
 @media (min-width: 768px) {
     .col-md-6 {
@@ -48,5 +102,11 @@
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
         max-width: 50%;
+    }
+}
+
+@media (max-width: 380px) {
+    .menu-bar-hambuger {
+        margin-left: 0;
     }
 }

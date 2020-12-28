@@ -3,6 +3,7 @@
     --indigo: #6610f2;
     --purple: #6f42c1;
     --orange: #A23F25;
+    --orange-light: #bd6e5a;
     --black: #000000;
     --main-rgba: rgba(255,255,255,0.6);
     --white-light: #f1cfcf;
@@ -23,6 +24,7 @@
     margin-right: -15px;
     margin-left: -15px;
 }
+
 
 .align-items-center {
     -webkit-box-align: center;
@@ -62,6 +64,10 @@
 
 .mr-4 {
     margin-right: 4px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
 }
 
 

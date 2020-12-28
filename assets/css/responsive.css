@@ -4,7 +4,7 @@
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .justify-content-md-end {
         justify-content: flex-end;
     }
@@ -17,14 +17,34 @@
         padding-left: 20px;
     }
 
-    .col-md-4 {
+    .d-lg-flex {
+        display: flex;
+    }
+
+    .col-lg-4 {
         flex: 0 0 33.3333%;
         max-width: 33.3333%;
     }
 
+    .pl-md-3 {
+        padding-left: 3rem;
+    }
+
+    .pt-3 {
+        padding-top: 3rem;
+    }
+
+    .pb-3 {
+        padding-bottom: 3rem;
+    }
+
 }
 
-@media (min-width: 770px) and (max-width: 1023px) {
+@media (min-width: 769px) and (max-width: 1023px) {
+    .container {
+        max-width: 760px;
+    }
+
     .header > .container {
         padding: 0 30px;
     }
@@ -40,11 +60,13 @@
     .background-content > h1 {
         font-size: 50px;
     }
+
+    
 }
 
 @media (max-width: 768px) {
     .container {
-        max-width: 720px;
+        max-width: 760px;
     }
 
     .row {
@@ -109,8 +131,39 @@
     .background-content > h1 {
         font-size: 40px;
     }
-}
 
+    .border-s-lr {
+        border-top: 1px solid rgb(206, 75, 75);
+        border-bottom: 1px solid rgb(206, 75, 75);
+    }
+
+    .intro .intro-icon {
+        font-size: 50px;
+        color: var(--white-light);
+        margin-bottom: 20px;
+    }
+
+    .des-background {
+        height: 450px;
+    }
+
+    .des-content-text-sub {
+        margin-top: 20px;
+    }
+    
+    .des-content-text p {
+        word-spacing: 0;
+    }
+
+    .year {
+        text-align: center;
+    }
+
+    .col-md-4 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
 
 
 @media (min-width: 768px) {
@@ -120,6 +173,14 @@
         flex: 0 0 50%;
         max-width: 50%;
     }
+
+    .col-md-4 {
+        position: relative;
+        width: 100%;
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+    }
+
 }
 
 @media (max-width: 426px) {
@@ -128,12 +189,24 @@
     }
 
     .background-content{
-        top: 40%;
-        
+        top: 40%;    
     }
 
     .background-content > h1 {
         font-size: 45px;
         text-align: center;
+    }
+
+    .des-content-text p {
+        margin-top: 10px;
+        text-align: justify;
+        word-spacing: 0px;
+    }
+}
+
+@media (min-width: 1020px) {
+    .col-lg-2 {
+        flex: 0 0 16.66667%;
+        width: 16.66667%;
     }
 }

@@ -7,3 +7,4 @@ function onClickFunction() {
         x.style.display = "none";
     }
 }
+

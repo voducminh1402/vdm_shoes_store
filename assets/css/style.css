@@ -168,7 +168,7 @@ html {
     font-family: 'Raleway', sans-serif;
     color: white;
     text-decoration: none;
-    padding: 10px 10px;
+    padding: 15px 15px;
     margin: 0 10px;
     display: inline-block;
     background-color: var(--orange);
@@ -176,13 +176,108 @@ html {
     font-weight: 600;
 }
 
+.background-content-more-option:hover {
+    background-color: var(--orange-light) ;
+}
+
 .about-option {
     background-color: transparent;
     border: 0.5px solid var(--white-light);
 }
 
+.about-option:hover {
+    background-color: var(--orange);
+}
+
 .intro-content {
     background-color: var(--orange);
 }
+
+.intro {
+    padding: 30px;
+}
+
+.intro .intro-icon {
+    font-size: 50px;
+    color: var(--white-light);
+    margin-right: 20px;
+}
+
+.intro .intro-text > h2 {
+    color: var(--white-light);
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+
+.intro .intro-text > p {
+    color: var(--white-half);
+}
+
+.des-content {
+    padding: 6rem 0;
+}
+
+.des-background {
+    position: relative;
+    width: 100%;
+    background: url(/Shoes_project/assets/img/des-background.jpg) top center / cover no-repeat;
+    
+}
+
+.des-content-text-sub {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: italic;
+    color: var(--orange);
+}
+
+.des-content-text > h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.des-content-text p {
+    margin-top: 10px;
+    text-align: justify;
+    word-spacing: 5px;
+}
+
+.year {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.number {
+    color: var(--orange);
+    font-size: 50px;
+}
+
+.product-content {
+    position: relative;
+    padding-bottom: 6rem;
+}
+
+.product-all-circle {
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+
+.product-all > h2 {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
 
 

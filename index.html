@@ -6,10 +6,13 @@
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/responsive.css">
-    <link rel="stylesheet" href="./assets/font/Raleway,Spectral/Raleway/static/Raleway-Regular.ttf">    
+    <link rel="stylesheet" href="./assets/css/responsive.css"> 
     <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.1-web/fontawesome-free-5.15.1-web/css/all.min.css">
-    <link rel="stylesheet" href="./assets/js/function.js">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">    
+    <script src="./assets/js/function.js"></script>
 
 </head>
 <body>
@@ -66,13 +69,13 @@
             <a href="index.html" class="nav-bar-logo">shoes
                 <span>store</span>
             </a>
-            <div onclick="onClickFunction()" id="myDropDown" class="menu-bar-hambuger">
+            <div onclick="onClickFunction()" id="myDropDown" class="menu-bar-hamburger">
                 <i class="fas fa-bars"></i>
             </div>
             <div class="menu-bar-cart">
                 <i class="fas fa-shopping-cart"></i>
             </div>
-            <div class="menu-bar">
+            <div id="menuBar" class="menu-bar">
                 <ul class="menu-bar-list">
                     <li class="menu-bar-item">
                         <a href="" class="menu-bar-item-link">home</a>
@@ -97,27 +100,39 @@
 
     <!-- START BACKGROUND -->
     <div class="main-background">
-        
+        <div class="background-content justify-content-center align-items-center">
+            <h1>Go faster, go stronger, never stop.</h1>
+            <div class="background-content-more justify-content-center align-items-center">
+                <a class="background-content-more-option" href="#">Shop Now</a>
+                <a class="background-content-more-option about-option" href="#">About Us</a>
+            </div>
+        </div>
     </div>
-    <!-- END SLIDER -->
+    <!-- END BACKGROUND -->
     
-    <script>
-    function onCLickFunction() {
-        document.getElementById("myDropDown").classList.toggle("show");
-    }
+    <!-- START CONTENT -->
+    <div class="content">
+        <div class="intro-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 d-flex">
+                        <div class="intro">
+                            <div class="intro-icon">
 
-    window.onclick = function(event) {
-        if (!event.target.matches('.menu-bar-hambuger')) {
-            var dropdowns = document.getElementsByClassName("menu-bar");
-            var i;
-            for (i = 0; i < dropdowns.length; i++) {
-                var openDropdown = dropdowns[i];
-                if (openDropdown.classList.contains('show')) {
-                openDropdown.classList.remove('show');
-                }
-            }
-        }
-    }
-    </script>
+                            </div>
+                            <div class="intro-text">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-flex"></div>
+                    <div class="col-md-4 d-flex"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END CONTENT -->
+
+   
 </body>
 </html>

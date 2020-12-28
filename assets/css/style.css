@@ -61,14 +61,6 @@ html {
     font-size: 13px;
 }
 
-.main-background {
-    position: relative;
-    width: 100%;
-    height: 750px;
-    background: url(/Shoes_project/assets/img/background.jpg) top center / cover no-repeat;
-    z-index: 0;
-}
-
 .nav-bar {
     width: 100%;
     position: absolute;
@@ -80,6 +72,7 @@ html {
     font-size: 30px;
     text-decoration: none;
     position: relative;
+    font-weight: 600;
 }
 
 .nav-bar-logo {
@@ -137,10 +130,59 @@ html {
     cursor: pointer;
 }
 
-.menu-bar-hambuger {
+.menu-bar-hamburger {
     color: var(--white-near);
     margin-left: -120px;
 }
 
+.main-background {
+    position: relative;
+    width: 100%;
+    height: 750px;
+    background: url(/Shoes_project/assets/img/background.jpg) top center / cover no-repeat;
+    z-index: 0;
+}
+
+.background-content{
+    position: absolute;
+    font-family: 'Dancing Script', cursive;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+.background-content > h1 {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+
+.background-content-more {
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.background-content-more-option {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin: 0 10px;
+    display: inline-block;
+    background-color: var(--orange);
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.about-option {
+    background-color: transparent;
+    border: 0.5px solid var(--white-light);
+}
+
+.intro-content {
+    background-color: var(--orange);
+}
 
 

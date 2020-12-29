@@ -11,7 +11,8 @@
     --white-half: #ffffff80;
     --grey: #9e9797;
     --green: rgb(3, 182, 3);
-    
+    --background: rgb(245,245,245);
+    --footer-background: rgb(26,26,26);
 }
 
 .show {
@@ -33,6 +34,12 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+}
+
+.align-items-center-stretch {
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
 }
 
 .justify-content-center {

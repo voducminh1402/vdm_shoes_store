@@ -352,6 +352,7 @@ html {
     border-radius: 4px;
 }
 
+
 .product-text {
     padding: 20px;
     position: relative;
@@ -423,6 +424,10 @@ html {
     border-radius: 5px;
 }
 
+.view-all a:hover {
+    background-color: var(--orange-light);
+}
+
 .view-all span {
     padding-left: 10px;
     font-size: 12px;
@@ -434,16 +439,134 @@ html {
     height: 350px;
     overflow: hidden;
     background-color: tan;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
 }
 
-.blog a {
+.blog-content {
+    padding-bottom: 4rem;
+}
+
+.blog {
     position: relative;
     width: 100%;
+    overflow: hidden;
+    background-color: var(--background);
+    margin: 0.7rem;
+    border-radius: 5px;
+}
+
+.blog-header {
+    font-size: 40px;
+    margin-bottom: 2rem;
+}
+
+.blog .img {
+    width: 50%;
+    position: relative;
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    overflow: hidden;
 }
+
+.blog-text {
+    padding: 20px;
+    width: 50%;
+}
+
+.head-time {
+    padding-bottom: 20px;
+}
+
+.head-time p {
+    font-size: 12px;
+}
+
+.head-time span {
+    padding-right: 15px;
+    padding-bottom: 20px;
+}
+
+.blog-text > h3 {
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.blog-text > p {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.blog-text a {
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--orange);
+}
+
+.blog-text a span {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.footer {
+    background-color: var(--footer-background);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.footer-content {
+    margin-bottom: 40px;
+}
+
+.footer-content .nav-bar-logo {
+    font-size: 18px;
+}
+
+.footer-content p {
+    color: var(--white-near);
+}
+
+.footer-content-heading p{
+    font-size: 18px;
+    color: var(--white-near);
+}
+
+.footer-content-heading {
+    margin-bottom: 20px;
+}
+
+.footer-content > ul > li {
+    list-style: none;
+    line-height: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-content > ul > li > a {
+    text-decoration: none;
+    color: var(--main-rgba);
+    line-height: 30px;
+}
+
+.footer-content > ul > li > span {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-content-icon {
+    margin-right: 5px;
+    margin-left: -3px;
+}
+
+.sub-footer {
+    padding: 2.5rem 0;
+    background-color: var(--black);
+    color: var(--white-light);
+}
+
+
+
 
 
 

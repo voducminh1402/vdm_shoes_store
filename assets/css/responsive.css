@@ -1,10 +1,8 @@
-@media (min-width: 1024px) {
-    .container {
-        max-width: 960px;
-    }
-}
-
 @media (min-width: 768px) {
+    .container {
+        max-width: 740px;
+    }
+
     .justify-content-md-end {
         justify-content: flex-end;
     }
@@ -63,6 +61,41 @@
         padding-right: 15px;
     }
 
+    .col-md-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+
+    .col-md-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .col-md-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .col-md-5 {
+        flex: 0 0 41.6667%;
+        max-width: 41.6667%;
+    }
+
+    .col-md-7 {
+        flex: 0 0 58.3333%;
+        max-width: 58.3333%;
+    }
+
+}
+
+@media (min-width: 769px) {
+    .product-select {
+        margin-left: 15px;
+    }
+
+    .dropdown-select {
+        margin-right: 15px;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 1023px) {
@@ -85,7 +118,6 @@
     .background-content > h1 {
         font-size: 50px;
     }
-
     
 }
 
@@ -201,10 +233,35 @@
         padding: 7px 30px;
     }
 
-    .col-sm-12 {
+    .col-md-12 {
         flex: 0 0 100%;
         width: 100%;
     }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+
+    .recent-blog-text-heading a {
+        font-size: 10px;
+    }
+
+    .recent-blog-img {
+        margin-right: 10px;
+    }
+    
+    .product-bar {
+        margin-left: 0;
+    }
+
+    .col-md-5 {
+        width: 100%;
+    }
+
+    .col-md-7 {
+        width: 100%;
+    }
+
 }
 
 
@@ -222,6 +279,10 @@
         flex: 0 0 33.3333%;
         max-width: 33.3333%;
         margin-bottom: 50px;
+    }
+
+    .product-content .col-md-4 {
+        padding: 0 15px;
     }
 
 }
@@ -255,6 +316,16 @@
 
     .sub-footer {
         font-size: 13px;
+    }
+
+    .product-background-content-name {
+        font-size: 25px;
+        padding-top: 50px ;
+    }
+
+    .product-select {
+        font-size: 14px;
+        padding-right: 10px;
     }
 
 }
@@ -293,6 +364,10 @@
         flex: 0 0 50%;
         max-width: 50%;
     }
+
+    .container {
+        max-width: 960px;
+    }
 }
 
 @media (max-width: 991.98px) {
@@ -300,6 +375,12 @@
         width: 100%;
     }
 }
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+ }
 
 
 

@@ -1,5 +1,5 @@
 :root {
-    --blue: ##007bff;
+    --blue: #007bff;
     --indigo: #6610f2;
     --purple: #6f42c1;
     --orange: #A23F25;
@@ -10,6 +10,9 @@
     --white-near: #ffffffcc;
     --white-half: #ffffff80;
     --grey: #9e9797;
+    --grey-near: #99A5C2;
+    --grey-light: rgb(248,249,250);
+    --grey-border: rgb(237, 240, 241);
     --green: rgb(3, 182, 3);
     --background: rgb(245,245,245);
     --footer-background: rgb(26,26,26);
@@ -56,7 +59,12 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex !important;
+}
 
+.justify-content-between {
+    -webkit-box-pack: justify !important;
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important;
 }
 
 .pb-5 {
@@ -87,4 +95,12 @@
     margin-bottom: 10px;
 }
 
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+.rl-5 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
 

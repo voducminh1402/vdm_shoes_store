@@ -962,6 +962,7 @@ html {
 
 .about-body-content {
     margin-bottom: 3rem;
+    padding-right: 15px;
 }
 
 .about-body-content h2 {
@@ -1045,7 +1046,7 @@ html {
 .about-more-content {
     position: absolute;
     color: white;
-    top: 50%;
+    top: 40%;
     text-align: center;
 }
 

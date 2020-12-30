@@ -262,6 +262,24 @@
         width: 100%;
     }
 
+    .about-body-content a {
+        font-size: 12px;
+    }
+
+    #search-input {
+        width: 250px;
+        height: 30px;
+    }
+
+    .search-btn {
+        padding: 5px;
+        margin-left: 15px;
+    }
+
+    .search-btn span {
+        font-size: 18px;
+    }
+
 }
 
 

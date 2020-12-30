@@ -1042,6 +1042,61 @@ html {
     transition: ease-in 0.3s;
 }
 
+.about-more-content {
+    position: absolute;
+    color: white;
+    top: 50%;
+    text-align: center;
+}
+
+#search-input {
+    width: 400px;
+    height: 60px;
+    background-color: transparent;
+    outline: none;
+    border:none;
+    border-bottom: 1px solid grey;
+    color: white;
+    font-size: 17px;
+    padding-left: 15px;
+}
+
+::placeholder {
+    color: grey;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#search-input:focus {
+    border-bottom: 1px solid white;
+    transition:ease-in 0.2s;
+}
+
+#search-input:focus::placeholder {
+    color: rgba(128,128,128,0.6);
+    transition: ease-in 0.2s;
+}
+
+.search-btn{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    margin-left: 30px;
+    padding: 12px;
+}
+
+.search-btn span {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
 
 
 

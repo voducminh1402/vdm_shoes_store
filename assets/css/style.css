@@ -645,7 +645,7 @@ html {
     height: 30px;
     width: 200px;
     background-color: var(--grey-light);
-    color: var(--grey-near);
+    color: var(--grey);
     font-weight: 600;
     outline: none;
     border: none;

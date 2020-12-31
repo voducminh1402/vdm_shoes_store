@@ -96,6 +96,10 @@
     .dropdown-select {
         margin-right: 15px;
     }
+
+    .contact-wrap-second {
+        margin-top: 50px;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 1023px) {
@@ -276,6 +280,20 @@
         font-size: 18px;
     }
 
+    .help-search > form > input {
+        width: 230px;
+        height: 40px;
+    }
+
+    .help-search > form > button {
+        height: 40px;
+        width: 80px;
+    }
+
+    .contact-wrap-first .col-md-6 {
+        margin-bottom: 50px;
+    }
+
 }
 
 
@@ -340,6 +358,10 @@
     .product-select {
         font-size: 14px;
         padding-right: 10px;
+    }
+
+    .container-wrap {
+        width: 300px;
     }
 
 }

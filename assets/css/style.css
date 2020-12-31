@@ -1061,7 +1061,7 @@ html {
     padding-left: 15px;
 }
 
-::placeholder {
+#search-input::placeholder {
     color: grey;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
@@ -1280,6 +1280,334 @@ html {
     color: rgba(0,0,0,0.6) !important;
     border-bottom: 3px solid rgba(0,0,0,0.6);
 }
+
+/* END BLOG.HTML */
+
+/* START CONTACT.HTML */
+
+.contact-background {
+    position: relative;
+    background-image: url(../img/contact-background.jpg);
+    height: 400px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
+.contact-background-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+}
+
+.contact-background::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.3);
+}
+
+.contact-background-content-name {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding: 40px 0;
+    text-transform: uppercase;
+}
+
+.contact-url {
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--main-rgba);
+}
+
+.contact-url > a {
+        text-decoration: none;
+        color: var(--main-rgba);
+}
+
+.contact-url > a:hover {
+    color: var(--orange);
+}
+
+.contact-url span {
+    font-size: 16px;
+    padding: 0 10px;
+} 
+
+.contact-content-heading-head h2{
+    margin-bottom: 2rem;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.help-search > form > input {
+    width: 400px;
+    height: 50px;
+    outline: none;
+    border: 1px solid var(--grey);
+    border-radius: 5px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.help-search > form > input:hover {
+    border: 1px solid var(--black);
+}
+
+.help-search > form > input::placeholder {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.help-search > form > input:focus::placeholder{
+    font-size: 0px;
+    transition: ease-out 0.3s;
+}
+
+.help-search > form > button {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    height: 50px;
+    width: 100px;
+    outline: none;
+    border: 1px solid var(--grey);
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.help-search > form > button:hover {
+    background-color: var(--black);
+    transition: ease-in 0.2s;
+    color: var(--white-light);
+}
+
+.contact-content {
+    margin: 6rem 0;
+}
+
+.contact-wrap {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.contact-wrap > h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 3rem;
+}
+
+.contact-detail-name input > span,
+.contact-detail-mail input > span,
+.contact-detail-content input > span {
+    color: red;
+}
+
+.contact-detail-name,
+.contact-detail-mail,
+.contact-detail-content,
+.contact-detail-message {
+    padding: 0 20px;
+}
+
+.contact-detail-label {
+    color: red;
+    font-weight: 600;
+}
+
+
+.contact-detail-name input,
+.contact-detail-mail input,
+.contact-detail-content input,
+.contact-detail-message input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+.contact-detail-message {
+    margin-top: 50px;
+}
+
+.contact-submit {
+    background-color: white;
+    border: 1px solid var(--black);
+    padding: 10px 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    outline: none;
+    margin-top: 70px;
+    margin-left: 15px;
+}
+
+.contact-submit:hover {
+    background-color: var(--black);
+    color: white;
+}
+
+/* END CONTACT.HTML */
+
+/* LOGIN */
+.all-container {
+    background: linear-gradient(-135deg,#680606,#eb9580);
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.sign-container {
+    background: linear-gradient(-135deg,#c850c0,#4158d0);
+}
+
+.container-wrap {
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+}
+
+.login-header,
+.sign-header {
+    width: 100%;
+}
+
+.login-header h3,
+.sign-header h3{
+
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.login-form-email {
+    display: inline-block;
+    background-color: #e6e6e6;
+    width: auto;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-bottom: 2rem;
+}
+
+.login-form-email-input {
+    display: inline-block;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.login-form-email-input::placeholder {
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 600;
+}
+
+.login-form-email-input:focus {
+    background-color: transparent;
+}
+
+.login-form-email-input:focus::placeholder{
+    font-size: 0;
+    transition: ease-out 0.3s;
+}
+
+.login-form-email-icon{
+    text-align: center;
+    transform: translateY(10%);
+    padding-right: 15px;
+    color: rgb(117,117,117);
+}
+
+.login-form-button {
+    margin-bottom: 1rem;
+}
+
+.login-form-button > button {
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 600;
+    background-color: rgb(240, 136, 118);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+}
+
+.login-form-button > button:hover {
+    background-color:  rgb(182, 90, 74);
+    color: white;
+}
+
+.login-form-forgot a {
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+}
+
+.login-form-forgot a:hover {
+    cursor: pointer;
+}
+
+.login-form-forgot a > span {
+    color: var(--grey);
+}
+
+.login-form-account {
+    font-size: 14px;
+    margin-top: 6rem;
+}
+
+.login-form-account a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.login-form-account a:hover {
+    cursor: pointer;
+    color: rgb(182, 90, 74);
+}
+
+.login-form-account a > span {
+    font-size: 10px;
+}
+
+.sign-header .login-form-forgot a {
+    text-decoration: none;
+}
+
+.sign-header .login-form-forgot a:hover {
+    color: rgb(182, 90, 74);
+}
+
+.sign-header .login-form-account {
+    display: none
+}
+
+
+/* END LOGIN */
+
+
+
+
+
+
+
+
+
 
 
 

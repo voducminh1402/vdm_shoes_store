@@ -7,10 +7,6 @@
         justify-content: flex-end;
     }
 
-    .menu-bar-hamburger {
-        display: none;
-    }
-
     .menu-bar-list a {
         padding-left: 20px;
     }
@@ -317,6 +313,10 @@
         padding: 0 15px;
     }
 
+    .menu-bar-hamburger {
+        display: none;
+    }
+
 }
 
 @media (max-width: 767.98px) {
@@ -326,6 +326,7 @@
         padding-right: 2rem;
         padding-bottom: 1rem;
     }
+
 }
 
 @media (max-width: 568px) {

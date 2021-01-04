@@ -1601,6 +1601,13 @@ html {
 /* END LOGIN */
 
 
+/* DETAIL PRODUCT */
+.nav-bar {
+    color: black;
+    background: var(--orange);
+}
+/*  */
+
 
 
 

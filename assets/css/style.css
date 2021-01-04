@@ -1606,6 +1606,23 @@ html {
     color: black;
     background: var(--orange);
 }
+
+.detail-product-page {
+    margin-top: 10rem;
+}
+
+.detail-product-page-img {
+    flex-wrap: wrap;
+}
+
+.detail-product-page-img > .col-md-6 {
+    height: 500px;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 15px;
+}
 /*  */
 
 

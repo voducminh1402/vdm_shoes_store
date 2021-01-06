@@ -1602,10 +1602,6 @@ html {
 
 
 /* DETAIL PRODUCT */
-.nav-bar {
-    color: black;
-    background: var(--orange);
-}
 
 .detail-product-page {
     margin-top: 10rem;

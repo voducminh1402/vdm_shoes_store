@@ -140,7 +140,7 @@ html {
     position: relative;
     width: 100%;
     height: 750px;
-    background: url(../img/background.jpg) top center / cover no-repeat;
+    background: url(../img/blog-1.jpg) top center / cover no-repeat;
     background-attachment: fixed;
     z-index: 0;
 }
